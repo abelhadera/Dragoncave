@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Dragon Cave {
+        public static void main(String[] arg) {
+            Scanner input = new Scanner(System.in);
+
+            System.out.println("Welcome Adventurer! Before you are two caves.\n One A generous dragon is in a good mood and is in sharing mood.\n The other cave on the other hand houses a evil and greedy dragon who will swallow you whole for fun.\n Which cave will you enter (1 or 2)");
+        
+
+            String cave = input.nextLine();
+            int a = Integer.parseInt(cave);
+
+            if(a == 1) {
+                System.out.println("You walk into the cave.\n As you begin to wonder if you chose the right cave.\n Smaug(The lord of the rings dragon) looks at you and in that moment.....\n Gives you his treasure says he wants to change his ways and gives you a ride home and helps unload the treasure!\n CONGRATS!");
+              
+            }else{
+                System.out.println("You walk into the cave.\n You barely see anything infront of you, as you go deeper you see the red scales of the dragon lighting the dark.\n Before you can even tale a look to see what kind of dragon it is.\n You see him open his mouth and a small flame appears.\n A flash of red is the last thing you see before you turn into ashes");
+            }
+                
+
+        }
+}
+
