@@ -8,9 +8,9 @@ public class Dragon Cave {
         
 
             String cave = input.nextLine();
-            int a = Integer.parseInt(cave);
+            int x = Integer.parseInt(cave);
 
-            if(a == 1) {
+            if(x == 1) {
                 System.out.println("You walk into the cave.\n As you begin to wonder if you chose the right cave.\n Smaug(The lord of the rings dragon) looks at you and in that moment.....\n Gives you his treasure says he wants to change his ways and gives you a ride home and helps unload the treasure!\n CONGRATS!");
               
             }else{
